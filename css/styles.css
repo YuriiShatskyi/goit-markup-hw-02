@@ -27,6 +27,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -42,6 +43,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
 
 }
@@ -64,8 +66,13 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 text-decoration: none;
+letter-spacing: 0.02em;
 }
 
+.contacts {
+    color: var(--primary-text-color);
+
+}
 
 .link:hover, .link:focus {
 color: var(--accent-color);
@@ -81,20 +88,27 @@ color: var(--accent-color);
 
 .hero {
     background-color: var(--background-color);
+}
+
+.hero-title {
     color: var(--alt-text-color)  ;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
     background-color: var(--accent-color);
     color: var(--alt-text-color);
     border: none;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     cursor: pointer;
+    letter-spacing: 0.06em;
     
 }
 
@@ -114,18 +128,15 @@ color: var(--accent-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .features-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-}
-
-.photo-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.9;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 /* ---------------------- */
@@ -133,8 +144,12 @@ color: var(--accent-color);
 /* our team ------------- */
 
 .photo-title {
-color: var(--title-text-color);
-} 
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
 
 .position {
     font-size: 16px;
@@ -149,9 +164,11 @@ color: var(--title-text-color);
     background-color: var(--secondary-white-color);
     color: var(--title-text-color);
     border: none;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em; 
     cursor: pointer;
 }
 
@@ -169,11 +186,13 @@ color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .project-filter {
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 
 /* ---------------------- */
@@ -192,12 +211,15 @@ color: var(--title-text-color);
     color:var(--alt-text-color);
 }
 
-.address a {
+.address .link {
     color: var(--alt-text-color);
     opacity: 0.6;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
-.address a:hover, address a:focus {
+.address .link:hover, address .link:focus {
     color: var(--accent-color);
     opacity: 1;
 
